@@ -78,3 +78,17 @@ section {
   font-size: 18px;
   margin: 48px 0 0 0;
 }
+
+/* INTRO */
+.intro {
+  background: $color-light;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
