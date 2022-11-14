@@ -1,7 +1,4 @@
 /* GLOBAL */
-$color-main: #ff5e57;
-$color-light: #fff;
-
 *,
 *::before,
 *::after {
@@ -31,11 +28,10 @@ section {
 .splash {
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 .splash-inner {
@@ -48,33 +44,33 @@ section {
 
 .splash i {
   font-size: 30px;
-  background: $color-main;
+  background: #ff5e57;
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: $color-light;
+  color: #fff;
   border-radius: 50%;
 }
 
 .page-title {
-  color: $color-light;
+  color: #fff;
   font-size: 60px;
   margin: 48px 0 0 0;
 }
 
 .page-title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -24px;
   left: 50%;
   width: 100px;
   height: 10px;
   transform: translateX(-50%);
-  background: $color-main;
+  background: #ff5e57;
 }
 
 .page-subtitle {
-  color: $color-light;
+  color: #fff;
   font-size: 18px;
   margin: 48px 0 0 0;
-}
+}/*# sourceMappingURL=style.css.map */
