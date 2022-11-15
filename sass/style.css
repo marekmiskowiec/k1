@@ -142,4 +142,12 @@ section {
 .skill-left .skill-description {
   text-align: left;
   padding: 36px 0 36px 55%;
+}
+
+/* FOOTER */
+.page-footer {
+  background: #242424;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
